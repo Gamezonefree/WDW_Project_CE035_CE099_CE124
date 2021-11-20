@@ -1,0 +1,106 @@
+/* CSS Code */
+body {
+    background: linear-gradient(45deg, black, brown);
+}
+
+/* Heading */
+h1 {
+    color: lightsalmon;
+    font-family: cursive;
+    font-size: 45px;
+}
+
+#score {
+    display: flex;
+}
+
+#firstPlayer {
+    width: 50%;
+    margin: auto;
+    display: flex;
+}
+
+#secondPlayer {
+    margin: auto;
+    display: flex;
+}
+
+table {
+    display: inline-flex;
+}
+
+/* 3*3 Grid */
+.box {
+    width: 80px;
+    height: 52px;
+    color: blanchedalmond;
+    margin: auto;
+    border: 1px solid gray;
+    border-radius: 3px;
+    font-size: 30px;
+    text-align: center;
+    background-image: url("game1.jpg");
+    background-size: cover;
+}
+
+div.modal {
+    margin: auto;
+    bottom: -50vh;
+    width: 80%;
+    margin-left: 10%;
+}
+
+/* Reset Button */
+#but {
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px;
+    border: 1px solid dodgerblue;
+    margin: 0;
+    border-radius: 4px;
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    background-color: dodgerblue;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+/* Player turn space */
+#print {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: dodgerblue;
+    font-size: 20px;
+}
+
+/* Main Container */
+#main {
+    text-align: center;
+}
+
+/* Game Instruction Text */
+#ins {
+    font-family: Verdana,
+        Geneva, Tahoma, sans-serif;
+
+    color: dodgerblue;
+    font-size: 17px;
+}
+
+#firstPlayer,
+#secondPlayer {
+    color: coral;
+    font: bold x-large monospace;
+}
+
+#score input {
+    height: 24px;
+    background: aquamarine;
+    width: 96px;
+    color: crimson;
+    outline: none;
+    border: none;
+}
