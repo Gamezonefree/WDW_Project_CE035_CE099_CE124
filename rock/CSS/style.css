@@ -1,8 +1,8 @@
 .results{
-	background:url("img/rockbg.jpg");
+	background:url("../img/rockbg.jpg");
 }
 main{
-	background:url("img/bg2.jpg");
+	background:url("../img/bg2.jpg");
 }
 * {
   box-sizing: border-box;
