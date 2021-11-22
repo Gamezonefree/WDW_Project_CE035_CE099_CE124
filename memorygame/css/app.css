@@ -17,7 +17,7 @@ body {
 }
 
 body {
-	background: url("img/mbg.png");
+	background: url("../img/mbg.png");
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 	font-size: 16px;
     color: whitesmoke;
